@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 
-from blogicum.core.models import BaseModel, BaseTitle
+from core.models import BaseModel, BaseTitle
 
 User = get_user_model()
 

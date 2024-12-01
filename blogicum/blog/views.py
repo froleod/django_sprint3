@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 
-from blogicum.core.query_sets import post_query, category_query
+from core.query_sets import post_query, category_query
 
 
 def index(request):

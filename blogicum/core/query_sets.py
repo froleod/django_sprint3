@@ -1,4 +1,4 @@
-from blogicum.blog.models import Post, Category
+from blog.models import Post, Category
 from django.utils import timezone
 
 
